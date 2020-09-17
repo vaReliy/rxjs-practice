@@ -1,0 +1,27 @@
+{
+  "name": "rxjs-practice",
+  "version": "1.0.0",
+  "description": "Practical tasks of RxJS library (educational project)",
+  "main": "index.js",
+  "scripts": {
+    "build":  "webpack-dev-server --mode production",
+    "start":  "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rxjs",
+    "javascript",
+    "js"
+  ],
+  "author": "Valeriy Garbuzov",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.4.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "rxjs": "^6.6.3"
+  }
+}
